@@ -5,7 +5,7 @@
 """
 
 # Copyright © 2013 Qiaoyong Zhong <solary.sh@gmail.com>
-# Last modified: Aug 14, 2013
+# Last modified: Aug 15, 2013
 
 import pickle
 import sys
@@ -41,7 +41,7 @@ def load_data():
 if __name__ == "__main__":
     if len(sys.argv) <= 1:
         print('Usage: {0} keywords'.format(sys.argv[0]))
-        print('Example: {0} 狐虎'.format(sys.argv[0]))
+        print('Example: {0} 薪在塌背字火犬芒转缘中救乐留茅说刺拆草残负隅顽抗'.format(sys.argv[0]))
         sys.exit()
     else:
         keywords = '，'
