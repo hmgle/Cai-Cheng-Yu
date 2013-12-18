@@ -50,10 +50,12 @@ if __name__ == "__main__":
 
     chengyu = load_data()
 
+    keywords_u = keywords.decode('utf-8')
     for word in chengyu:
+        word_u = word.decode('utf-8')
         validity = True
-        for cha in word:
-            if cha not in keywords:
+        for cha in word_u:
+            if cha not in keywords_u:
                 validity = False
                 break
 
